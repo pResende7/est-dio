@@ -1,0 +1,22 @@
+.estudio-container {
+  height: 1000px;
+}
+.conteudo-estudio {
+  max-width: 100%;
+}
+.estudio-container h1{
+  word-wrap: break-word;
+  max-width: 100%;
+  font-size: 8rem;
+  margin-left: 596px;
+  padding-top: 220px;
+  color: rgba(0, 0, 0, 0.24);
+  margin-bottom: -55px;
+}
+.estudio-container h2 {
+  font-size: 7rem;
+  color: rgba(0, 0, 0, 0.24);
+  word-wrap: break-word;
+  margin-left: 750px;
+  line-height: 129px;
+}

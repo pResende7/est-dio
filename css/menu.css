@@ -1,0 +1,73 @@
+body{
+  margin: 0px;
+  height: 8000px;
+}
+header{
+ max-width: 100%;
+ min-height: 100vh;
+ background-image: url(../img/foto\ com\ camera\ portifolio.jpg);
+ background-size: 100%;
+ background-repeat: no-repeat;
+ background-position-y: -130px;
+ position: relative;
+}
+.menu {
+  margin-right:  auto;
+  margin-left:  auto;
+  max-width: 1400px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.hamburguer-menu,
+.logo,
+.agendar {
+  margin-top: 10px;
+  width: 250px;
+}
+.logo img{
+  max-width: 240px;
+}
+.hamburguer-menu {
+  margin-left: 150px;
+  margin-right: -150px;
+  margin-bottom: -10px;
+}
+.hamburguer-menu .line1, .line2, .line3{
+  margin: 5px;
+  width: 30px;
+  height: 3px;
+  background-color: #d1906a;
+}
+.hamburguer-menu .line2 {
+  width: 20px;
+}
+.conheca {
+  position: absolute;
+  bottom: 80px;
+  left: 318px;
+  color: rgb(0, 0, 0);
+}
+.agendar a{
+  padding: 15px 36px;
+  border: solid 2px #d1906a;
+  color: #d1906a;
+  transition: 0.3s;
+}
+.agendar a:hover{
+  border-color: aliceblue;
+  color: white;
+  background-color: #d1906a;
+}
+header::before {
+  position: absolute;
+  left: 320px;
+  content: "conheça a dourura";
+  text-wrap: nowrap;
+  display: inline-block;
+  width: 1.5px;
+  height: 160px;
+  background: linear-gradient(black 50%, white 50%);
+  bottom: -80px;
+}
