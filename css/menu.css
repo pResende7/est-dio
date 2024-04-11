@@ -9,7 +9,6 @@ header{
  background-size: 100%;
  background-repeat: no-repeat;
  background-position-y: -130px;
- position: relative;
 }
 .menu {
   margin-right:  auto;
@@ -61,15 +60,19 @@ header{
   color: white;
   background-color: #d1906a;
 }
-header::before {
+header::after {
   position: absolute;
   left: 320px;
-  content: "conheça a fotógrafa";
-  align-content: normal;
-  text-wrap: nowrap;
-  display: inline-block;
+  content: "";
   width: 1.5px;
   height: 160px;
   background: linear-gradient(black 50%, white 50%);
   bottom: -80px;
+}
+.element {
+  position: absolute;
+  text-wrap: nowrap;
+  letter-spacing: 3px;
+  bottom: 80px;
+  left: 300px;
 }
