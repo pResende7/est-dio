@@ -16,6 +16,7 @@
   max-width: 100%;
   min-width: 100%;
   border-radius: 5px;
+  border: solid 1px black;
 }
 .historia p {
   font-size: 1.3rem;
@@ -34,7 +35,7 @@
   transition: 0.3s;
 }
 .conheca-buttom a:hover{
-  border-color: rgb(255, 255, 255);
+  border-color: rgb(0, 0, 0);
   color: rgb(0, 0, 0);
-  background-color: #ffffff;
+  background-color: #d4d4d4;
 }

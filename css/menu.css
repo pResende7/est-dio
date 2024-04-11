@@ -28,6 +28,7 @@ header{
 }
 .logo img{
   max-width: 240px;
+  margin-left: 10px;
 }
 .hamburguer-menu {
   margin-left: 150px;
@@ -63,7 +64,8 @@ header{
 header::before {
   position: absolute;
   left: 320px;
-  content: "conheça a dourura";
+  content: "conheça a fotógrafa";
+  align-content: normal;
   text-wrap: nowrap;
   display: inline-block;
   width: 1.5px;
